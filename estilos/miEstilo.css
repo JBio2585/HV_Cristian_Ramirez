@@ -1,0 +1,62 @@
+body{
+    background-image: url(../imagenes/images3.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: initial;
+}
+
+header{
+    text-align: center;
+}
+
+.mifoto{
+    border-radius: 10px;
+    border: 5px solid beige
+}
+
+.right-text a{
+    color: white;
+    font-size: 24px;
+}
+
+div.right-text{
+    background: blueviolet;
+    border: 5px solid blue;
+    border-top-width: 50px;
+    border-top-color: transparent;
+}
+
+.box-1{
+width: 100px;
+height: 100px;
+background: lime;
+padding: 50px;
+margin: 20px;
+}
+
+.box-2{
+    margin: 200px;
+    width: 100px;
+    height: 100px;
+    background: lightcoral;
+}
+
+
+.border-1{
+background: yellowgreen;
+border: 5px solid red;
+border-top-width: 200px;
+border-top-color: transparent;
+}
+
+.border-2{
+background: lightseagreen;
+border-left-width: 5px;
+border-left-style: dotted;
+border-left-color: blue;
+}
+
+.border-3{
+background: lightcoral;
+border: 5px dashed blue;
+}
