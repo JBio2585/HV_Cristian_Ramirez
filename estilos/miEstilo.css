@@ -31,20 +31,35 @@ header{
     text-align: center;
     background-color: rgba(0, 0, 0, 0.753);
     border-radius: 20px;
-    border-color: aquamarine;
     margin: 0 auto;
     max-width: 500px;
     margin-top: 30px;
     padding: 20px;
 }
 
-.right-text{
-    border-radius: 10px;
-    background-color: rgb(45, 45, 214);
-    width: 100%;
+.Educacion{
+    padding: 1% 1%;
+    margin: 0 auto;
+    max-width: 500px;
+    font-size: xx-large;
     text-align: center;
-    padding: 20px 0px;
+    color: white;
+    background-color: rgba(34, 34, 34, 0.911);
+    margin-top: 40px;
+    border-radius: 10px;
+    padding: 10px;
+    border-radius: 40px;
+    border: solid green;
 }
+
+
+
+/*margin: 0 auto;
+para centrar elementos en una caja de texto*/
+
+/*     padding: 20px 0px;
+con un solo valor sirve para ampliar o reducir el texto dentro de la caja "hacia arriba" asi con los 
+2 sirve para expandir a los lados*/
 
 .right-text a{
     color: white;
@@ -52,13 +67,33 @@ header{
     text-transform: uppercase;
     font-size: 30px;
     margin: 0 10px;
+    border: 5px solid red;
+    border-top-width: 5px;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-radius: 10px;
+}
+
+.right-text{
+    border-radius: 10px;
+    background-color: #0400fcad;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0px;
+    
 }
 
 div.right-text a:hover{
-color: yellow;
-border: 1px solid;
-transition: 800ms;
-border-radius: 60px;
+/* border: 1px solid rgb(36, 185, 211); */
+/* transition: 800ms; */
+/* border-radius: 60px; */
+color: rgb(255, 255, 255);
+background-color: #130a96;
+border: 5px solid red;
+border-bottom-color: transparent;
+border-left-color: transparent;
+transition: 600ms;
+
 }
 
 
